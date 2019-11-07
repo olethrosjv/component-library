@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Components`,
+    title: `Styled Components for Gatsby`,
     description: `Made with the Gatsby default starter. This is a library of reusable styled components for Gatsby websites.`,
     author: `Joe Vaughn`,
   },
