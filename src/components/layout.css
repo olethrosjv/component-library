@@ -619,4 +619,11 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+  .sidebar {
+    width: 100%;
+    float: none;
+  }
+  .grid {
+    grid-template-columns: 100%;
+  }
 }

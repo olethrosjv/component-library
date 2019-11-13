@@ -4,18 +4,21 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 //import Image from "../components/image"
 import SEO from "../components/seo"
+import "components/layout.css"
+
 
 const SideBarPage = () => (
   <Layout>
     <SEO title="Home" />
-    <div style={{ display: `grid`, gridTemplateColumns: `250px auto`, }}>
+   
+    <div className="grid" style={{ display: `grid`, gridTemplateColumns: `22% auto`, }}>
 
     
-    <div style={{ float: `left`, marginRight: `1rem`, }}>
+    <section className="sideBar" style={{ float: `left`, marginRight: `1rem`, }}>
     <h1>Sidebar page</h1>
-    </div>
+    </section>
 
-    <div style={{ marginLeft: `3rem`, }}>
+    <div style={{ marginLeft: `1rem`, }}>
 
     <h2>This page has a sidebar component</h2>
     <p>This is a left sidebar. It is created using CSS grid and grid-template columns, and the float attribute. I can contain widgets, navigation, social icons, and an endless variety of content types.</p>
